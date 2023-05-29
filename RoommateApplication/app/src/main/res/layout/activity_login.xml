@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:padding="45dp"
+   >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/roommate3"
+      />
+
+    <EditText
+        android:layout_below="@id/image"
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:drawableStart="@drawable/baseline_email_24"
+        android:layout_marginTop="25dp"
+        />
+
+
+    <EditText
+
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_email"
+        android:inputType="textPassword"
+        android:layout_marginTop="5dp"
+        android:drawableStart="@drawable/baseline_password_24"
+        android:hint="Password" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_login"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_below="@id/et_password"
+        android:backgroundTint="#0073d0"
+        />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_signUp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_toRightOf="@id/btn_login"
+        android:layout_below="@id/et_password"
+        android:backgroundTint="#0073d0"
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/recoverpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Forgot Password? Recover"
+        android:layout_below="@id/btn_signUp"/>
+
+
+
+</RelativeLayout>
+</ScrollView>

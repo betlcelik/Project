@@ -1,0 +1,180 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#0073d0"
+    tools:context=".ProfileFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#0073d0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+           >
+
+            <ImageView
+                android:id="@+id/iv_avatar"
+                android:padding="5dp"
+                android:layout_marginTop="25dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_users"
+                android:layout_marginStart="20dp"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp">
+
+                <EditText
+                    android:id="@+id/et_firstName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="First Name"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+                    />
+
+                <EditText
+                    android:id="@+id/et_lastName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/et_firstName"
+                    android:hint="Last Name"
+                    android:textSize="20dp"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    android:id="@+id/et_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                   android:layout_below="@id/et_firstName"
+                    android:layout_marginLeft="5dp"
+                    android:hint="Email"
+                    />
+
+                <EditText
+                    android:id="@+id/et_phoneNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/et_email"
+                    android:layout_marginLeft="5dp"
+                    android:hint="phoneNumber"
+                     />
+                <!-- Add more EditText views here -->
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp">
+
+            <EditText
+                android:id="@+id/et_department"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:hint="Department"
+                ></EditText>
+
+            <Spinner
+                android:id="@+id/sp_grade"
+                android:layout_marginTop="10dp"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@id/et_department"
+                ></Spinner>
+
+            <Spinner
+                android:id="@+id/sp_state"
+                android:layout_marginTop="10dp"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@id/sp_grade"
+                />
+
+            <Spinner
+            android:id="@+id/sp_distance" android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:hint="distance"
+            android:layout_below="@id/sp_state"
+            />
+
+            <Spinner
+                android:id="@+id/sp_time"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:hint="Time"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/sp_distance"
+
+                ></Spinner>
+
+
+
+            <Button
+                android:id="@+id/btn_update"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sp_time"
+                android:text="Update Profile"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#0073d0">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btn_changepassword"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sp_time"
+                android:text="Change Password"
+                android:layout_toRightOf="@id/btn_update"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#0073d0">
+
+            </Button>
+
+            <!-- Add your views here -->
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+    </ScrollView>
+    
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_map"
+        android:src="@drawable/ic_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="#0073d0"
+
+        >
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+</RelativeLayout>

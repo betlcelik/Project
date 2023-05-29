@@ -1,0 +1,16 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid  /> <!-- İçerik rengi -->
+    <size
+        android:width="100dp"
+        android:height="100dp" /> <!-- İçerik boyutları -->
+    <padding
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp"
+        android:bottom="10dp" /> <!-- İçerik iç kenar boşlukları -->
+    <corners android:radius="50dp" /> <!-- İçerik köşeleri -->
+    <bitmap
+        android:src="@drawable/roomy"
+        android:gravity="center" /> <!-- Eklenen resim -->
+</shape>

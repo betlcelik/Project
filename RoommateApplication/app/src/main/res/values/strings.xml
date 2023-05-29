@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Roommate Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="state_options">
+        <item>State</item>
+        <item>Kalacak Ev/Oda arıyor</item>
+        <item>Ev/Oda arkadaşı arıyor</item>
+        <item>Aramıyor</item>
+    </string-array>
+
+    <string-array name="grade_options">
+        <item>Grade</item>
+        <item>Hazırlık</item>
+        <item>1. Sınıf</item>
+        <item>2. Sınıf</item>
+        <item>3. Sınıf</item>
+        <item>4. Sınıf</item>
+    </string-array>
+
+    <string-array name="time_options">
+        <item>Time</item>
+        <item>0-1 ay</item>
+        <item>1-3 ay</item>
+        <item>3-6 ay</item>
+        <item>6-12 ay</item>
+        <item>1 yıl +</item>
+        <item>2 yıl +</item>
+        <item>3 yıl +</item>
+        <item>4 yıl +</item>
+        <item>5 yıl +</item>
+    </string-array>
+
+    <string-array name="distance_options">
+        <item>Distance</item>
+        <item>0-1 km</item>
+        <item>2 km ve daha az</item>
+        <item>3 km ve daha az</item>
+        <item>4 km ve daha az</item>
+        <item>5 km ve daha az</item>
+        <item>10 km ve daha az</item>
+        <item>Mesafe Sorun Değil</item>
+
+    </string-array>
+</resources>

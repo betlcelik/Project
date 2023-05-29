@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "roommate-application",
+  "private_key_id": "608abd832f56a39e9d14e021f3c986a363e91c19",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCyLY3I0GxUa4OX\nv6CPPYrCQE/TPoUKqv4gl3AQK+XfEsUBPcywY0eJTCJ1loniq+aqvtFyUHsEYYbX\nvzUh/bSrvNmr1jgRpgngXTCPSvQFGxK4GKCohYfmQ/TnHeW3yJjmTJsrfLhKl1dt\nc/yZHfxnN987JySoE+ET66+mGxV0znR1dbUSn2t+CdlXavGmRimgbZ4iBLLdSkFd\nsckd14NiTdA1nJTMb7WnDVdnLG8M+VKrStdnNNaEjMdPN8t7fUgG2D3NvwWHSRPq\ni1Ryc0wUQ/c2Q/DgoC/k+8J69xoeRpIsAuSC/tGC2DKVUr0+SU2Mj33xzVYRyeui\npsDG3LpjAgMBAAECggEAFMS4jRq2NdTeXtbISUn8HY5Pf6j+6vJpcrUUK95iCfFv\nIyjn7ft0gC1uqtQkOFafKXHaif+Vhzoy9HzmHZMr9wSpPp1Wpb/70LosCdfLv7ib\nIvhD6cC+yXlMV5AlkZmBMP7m61e7R36Cg1CMtfBH1mQt0gBLBohiqObE75CinJ2t\no9UQjiJXGqVYkKRXK6lnOlVZCtRvLCmWTGxDg98Dgpe2Akeq/CsYT23uf1igobfD\n53n4tZ7o2boGQIX4hV7Ug6U4m+q2sWCRR6c6nnJHVNXIG12K3tdVazXTM+DM7g+l\n9ZbCjsrNlrFgu9favPDD4f4fiGAej5T6542cYFJr0QKBgQD3WQcl42xuv0JriyrT\nKDNzI/vQyhY+8dwh4bUtCmpk1a3JRArcJAV8KoKCs72h4zcj5KqPMvbP1ZGHLMV1\nbHjruSh9NbadTJaJ1vaLla6p6xOszElQYeA5ZKfrSGMVdNbdCxKmH7PwU9MoB1lS\nNIY0ps3m660/v4pa/IhCjru+ewKBgQC4aR4mhNwmKrT04tdD/hqosBnjDa+VcgX8\nKX6J6GD5ocwkgHFW8REZdviekb+zYXFL/Y6MP2GRGexWmliQUzPigQlBRripPW/L\nYmseqiJxD8hWcKBNtP/UGXhjfWCd6wAccF8yo9vGFtMxuRW3a13LsYKre7Kr/zhp\nHr7ztyWjOQKBgBaGNPBuVWGAaTwB4FR6RLUngbbxsDTrMXCkbSs815N3IexCFfsW\nDKnR9TCRzaMAXfUWzbFcor0qZaY5nYGj7x8ILXe5fHe2kb7bpHfxmYY/sfr6X3LC\ndvjDAcebP+qkSSy35WrbWDd6arAqeyfRQKdqyTVOIOi9OIwwkvf8p3whAoGAVEKr\npRwF32aaIl7Xz1h24+b7HRTuypE8DNkE2YyVatq0BWWu4/PoRUNoHEQqXJNEil1D\n2e9H7F308Ck8GE38Ih2lle7zh1jsEPlaSrugWxrEBkMV7Aus7UPqD0OFdwKenV/3\nD5NxYxSg0VJpitKDHARy2Vn+7LoEE3wZ8hAYIXkCgYALSOL1RVz+Ths/R6Q07hVc\nqKdQj+Jd4+3UD6FH+RMWHJubOYiql2UCg+/jALSt6179CKvG5tel0jKmaFoBg5Za\nHssqxRBZUvvAyQlUVOMEuiHXi01+QCAcvtT8Q8fUHOts+Ll5DXan+xxLbEE6Y8wU\nBNTNtm9kmeD4mZlP2TmeIQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-houdg@roommate-application.iam.gserviceaccount.com",
+  "client_id": "114987704811917490080",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-houdg%40roommate-application.iam.gserviceaccount.com"
+}
